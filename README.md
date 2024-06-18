@@ -1,9 +1,7 @@
 # Restaurants-API
 
-# Little Africa API v2 Documentation
 
-## Overview
-
+## Menu Update
 This API allows you to update various entities in the Little Africa menu, including items, modifier items, modifier groups, and categories.
 
 ### Base URL
