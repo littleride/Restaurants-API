@@ -80,7 +80,9 @@ Sample Request for Categories
         "max_items_permitted_per_order": 50
     }
 }
+
 Additional Information
+
 Ensure that the id provided corresponds to the entity you wish to update.
 The details object contains metadata specific to the entity type.
 The quantity_info object, when present, specifies selection rules for the entity.
