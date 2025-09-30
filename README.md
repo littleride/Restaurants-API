@@ -1,8 +1,11 @@
 # Little Africa Deliveries API - Integration Guide
 
-**Version:** `2.0`  
+**Version:** `2.0` 
+
 **support**: `support.integrations@little.africa`
+
 **Last Updated:** `January 2025 `
+
 **Base URL:** `https://pay.little.africa/deliveries`
 
 ---
