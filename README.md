@@ -337,7 +337,7 @@ Content-Type: application/json
 - **`quantity_info`**: Stock and ordering limits
   - **`max_items_permitted_per_order`**: Maximum quantity per order
 - **`price_info`**: Pricing information
-  - **`price`**: Regular price in cents (e.g., 850 = 8.50 KES)
+  - **`price`**: Regular price in cents (e.g., 850 )
   - **`special_price`**: Promotional price in cents (use same as price if no promotion)
 
 #### Modifier Groups
