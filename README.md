@@ -539,7 +539,7 @@ Your system will receive POST requests at your configured callback URL for vario
 {
   "eventType": "menuUploadQueued",
   "uploadId": "65a5f123456789abcdef1234",
-  "storeID": "masked_store_id",
+  "storeID": "store_id",
   "status": "QUEUED",
   "uploadedAt": "2025-01-15T14:20:00.000Z"
 }
@@ -547,7 +547,7 @@ Your system will receive POST requests at your configured callback URL for vario
 
 ### 2. Menu Processing Started
 
-**Trigger:** When PM2 cron processor picks up your menu
+**Trigger:** When cron processor picks up your menu
 
 **Event Type:** `menuProcessingStarted`
 
@@ -556,7 +556,7 @@ Your system will receive POST requests at your configured callback URL for vario
 {
   "eventType": "menuProcessingStarted",
   "uploadId": "65a5f123456789abcdef1234",
-  "storeID": "masked_store_id",
+  "storeID": "store_id",
   "status": "PROCESSING",
   "processingStartedAt": "2025-01-15T14:25:00.000Z"
 }
@@ -573,7 +573,7 @@ Your system will receive POST requests at your configured callback URL for vario
 {
   "eventType": "menuProcessingCompleted",
   "uploadId": "65a5f123456789abcdef1234",
-  "storeID": "masked_store_id",
+  "storeID": "store_id",
   "status": "PROCESSED",
   "processingCompletedAt": "2025-01-15T14:25:45.000Z"
 }
@@ -590,7 +590,7 @@ Your system will receive POST requests at your configured callback URL for vario
 {
   "eventType": "menuProcessingFailed",
   "uploadId": "65a5f123456789abcdef1234",
-  "storeID": "masked_store_id",
+  "storeID": "store_id",
   "status": "FAILED",
   "processingFailedAt": "2025-01-15T14:25:30.000Z",
   "errorMessage": "Database connection timeout"
